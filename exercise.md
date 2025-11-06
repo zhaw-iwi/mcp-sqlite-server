@@ -1,5 +1,14 @@
 # 🧩 Agentic-AI Exercises
 
+## Table of contents
+
+- [Exercise 1: Add Brave Search MCP Server to VS Code Copilot](#exercise-1-add-brave-search-mcp-server-to-vs-code-copilot)
+- [Exercise 2: Add Brave Search MCP Server to Jan](#🧩-exercise-2-add-brave-search-mcp-server-to-jan)
+- [Exercise 3: Update LangChain RAG Agent to Include the MCP PubMed Server to Ask Questions](#🧩-exercise-3-update-langchain-rag-agent-to-include-the-mcp-pubmed-server-to-ask-questions)
+- [Exercise 4: Design a SQLite-MCP-Server to Handle Requests for a SQLite Database](#🧩-exercise-4-design-a-sqlite-mcp-server-to-handle-requests-for-a-sqlite-database)
+- [Exercise 5: Implement the Designed SQLite-MCP-Server](#🧩-exercise-5-implement-the-designed-sqlite-mcp-server)
+- [Exercise 6 (Optional): Customize Instructions for Copilot](#🧩-optional-exercise-6-customize-instructions-for-copilot)
+
 ## Exercise 1: Add Brave Search MCP Server to VS Code Copilot
 
 ### 🛠️ Configuration Steps
@@ -71,8 +80,6 @@ Using **Jan**, try triggering a **Brave Search** through MCP.
 
 5. Test by calling the server using **Jan** and **VS Code Copilot**.
 
----
-
 ### 🧠 Update LangChain RAG Agent to Include the MCP PubMed Server
 
 **Starting project:** [RAG-Agent-exercise](https://github.com/zhaw-iwi/RAG-Agent-exercise)
@@ -141,7 +148,6 @@ Base your work on the project:
 As a group, **design an MCP Server** that can handle requests for a **SQLite database**.  
 Your MCP Server should replicate and extend the functionality demonstrated in the [Table-Augmented-Generation-Exercise](https://github.com/zhaw-iwi/Table-Augmented-Generation-Exercise/tree/main).
 
----
 
 ### 🧩 Objective
 
@@ -149,8 +155,6 @@ Design a **SQLite MCP Server** that enables:
 - Connecting to a local SQLite database  
 - Querying tables and retrieving structured data  
 - Returning responses through MCP-compatible tools and resources  
-
----
 
 ### 🧠 Key Concepts to Apply
 
@@ -171,8 +175,6 @@ From the [Model Context Protocol Client Concepts](https://modelcontextprotocol.i
 | **Sampling** | Lets the client ask the LLM to generate or refine structured requests, such as building SQL queries. |
 | **Elicitation** | Allows the server to request additional details or parameters from the user when needed. |
 
----
-
 ### 📊 Optional: Sequence Diagram
 
 Create a **sequence diagram** to visualize your system flow using  
@@ -184,8 +186,6 @@ Create a **sequence diagram** to visualize your system flow using
 3. MCP Server executes SQL via `run_query`.  
 4. Server returns structured results.  
 5. Client (via Elicitation) may ask for more details if the query is incomplete.
-
----
 
 ### 🎤 Presentation Task
 
@@ -199,11 +199,12 @@ Prepare a **5-minute group presentation** explaining:
 Focus on **clarity, scope, and reasoning** behind your design choices.
 
 
+
 ## 🧩 Exercise 5: Implement the Designed SQLite-MCP-Server
 
 Based on your design from Exercise 4, now implement the **SQLite MCP Server**.
 
----
+
 
 ### 🧑‍💻 Development Setup
 
