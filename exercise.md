@@ -3,11 +3,11 @@
 ## Table of contents
 
 - [Exercise 1: Add Brave Search MCP Server to VS Code Copilot](#exercise-1-add-brave-search-mcp-server-to-vs-code-copilot)
-- [Exercise 2: Add Brave Search MCP Server to Jan](#🧩-exercise-2-add-brave-search-mcp-server-to-jan)
-- [Exercise 3: Update LangChain RAG Agent to Include the MCP PubMed Server to Ask Questions](#🧩-exercise-3-update-langchain-rag-agent-to-include-the-mcp-pubmed-server-to-ask-questions)
-- [Exercise 4: Design a SQLite-MCP-Server to Handle Requests for a SQLite Database](#🧩-exercise-4-design-a-sqlite-mcp-server-to-handle-requests-for-a-sqlite-database)
-- [Exercise 5: Implement the Designed SQLite-MCP-Server](#🧩-exercise-5-implement-the-designed-sqlite-mcp-server)
-- [Exercise 6 (Optional): Customize Instructions for Copilot](#🧩-optional-exercise-6-customize-instructions-for-copilot)
+- [Exercise 2: Add Brave Search MCP Server to Jan](#exercise-2-add-brave-search-mcp-server-to-jan)
+- [Exercise 3: Update LangChain RAG Agent to Include the MCP PubMed Server to Ask Questions](#exercise-3-update-langchain-rag-agent-to-include-the-mcp-pubmed-server-to-ask-questions)
+- [Exercise 4: Design a SQLite-MCP-Server to Handle Requests for a SQLite Database](#exercise-4-design-a-sqlite-mcp-server-to-handle-requests-for-a-sqlite-database)
+- [Exercise 5: Implement the Designed SQLite-MCP-Server](#exercise-5-implement-the-designed-sqlite-mcp-server)
+- [Exercise 6 (Optional): Customize Instructions for Copilot](#optional-exercise-6-customize-instructions-for-copilot)
 
 ## Exercise 1: Add Brave Search MCP Server to VS Code Copilot
 
@@ -44,7 +44,7 @@
    🔍 What keyboard shortcut or trigger activates the Brave Search integration?
 
 
-## 🧩 Exercise 2: Add Brave Search MCP Server to Jan
+## Exercise 2: Add Brave Search MCP Server to Jan
 
 ### 🛠️ Configuration Steps
 
@@ -63,7 +63,7 @@
 Using **Jan**, try triggering a **Brave Search** through MCP.
 
 
-## 🧩 Exercise 3: Update LangChain RAG Agent to Include the MCP PubMed Server to Ask Questions
+## Exercise 3: Update LangChain RAG Agent to Include the MCP PubMed Server to Ask Questions
 
 ### 🔧 Add MCP PubMed Server
 
@@ -138,7 +138,7 @@ def generate_query_or_respond(state: MessagesState):
 Change your query to observe how different keywords affect which tool (retriever_tool or PubMed tool) is used by generate_query_or_respond.
 
 
-## 🧩 Exercise 4: Design a SQLite-MCP-Server to Handle Requests for a SQLite Database
+## Exercise 4: Design a SQLite-MCP-Server to Handle Requests for a SQLite Database
 
 ### 📘 Project Context
 
@@ -200,7 +200,7 @@ Focus on **clarity, scope, and reasoning** behind your design choices.
 
 
 
-## 🧩 Exercise 5: Implement the Designed SQLite-MCP-Server
+## Exercise 5: Implement the Designed SQLite-MCP-Server
 
 Based on your design from Exercise 4, now implement the **SQLite MCP Server**.
 
@@ -252,7 +252,7 @@ Implement the **MCP-SQLite-Server** using your design from Exercise 4.
 Test your implementation with the **MCP Inspector** and/or **VS Code Copilot** to verify connectivity and functionality.
 
 
-## 🧩 (Optional) Exercise 6: Customize Instructions for Copilot
+## (Optional) Exercise 6: Customize Instructions for Copilot
 
 Follow GitHub’s guide to add **repository-specific Copilot instructions**:  
 [How to Add Repository Instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions?tool=visualstudio)
